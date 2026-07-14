@@ -71,6 +71,8 @@ const translations = {
       { name: 'Python', level: 70, color: '#3776ab', icon: 'Py' },
       { name: 'Figma / UI Design', level: 70, color: '#f24e1e', icon: 'F' }
     ],
+    softSkillsTitle: 'Soft Skills',
+    softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
     projectCategories: ['ทั้งหมด', 'Web App', 'Mobile', 'Design'],
     projects: [
       {
@@ -185,6 +187,8 @@ const translations = {
       { name: 'Python', level: 70, color: '#3776ab', icon: 'Py' },
       { name: 'Figma / UI Design', level: 85, color: '#f24e1e', icon: 'F' }
     ],
+    softSkillsTitle: 'Soft Skills',
+    softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
     projectCategories: ['All', 'Web App', 'Mobile', 'Design'],
     projects: [
       {
@@ -279,6 +283,7 @@ createApp({
     const categories = computed(() => t.value.projectCategories);
     const projects = computed(() => t.value.projects.map(project => ({ ...project })));
     const socials = computed(() => t.value.socials.map(social => ({ ...social })));
+    const softSkills = computed(() => t.value.softSkills || []);
 
     const filteredProjects = computed(() => {
       if (activeFilter.value === 'ทั้งหมด' || activeFilter.value === 'All') return projects.value;
@@ -443,6 +448,7 @@ createApp({
       skills,
       categories,
       filteredProjects,
+      softSkills,
       socials,
       currentYear,
       currentLang,
