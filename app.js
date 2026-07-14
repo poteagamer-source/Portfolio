@@ -26,7 +26,6 @@ const translations = {
     contact: {
       tag: 'ติดต่อ',
       title: 'ติดต่อฉัน',
-      intro: 'ถ้ามีไอเดียหรือโปรเจกต์อยากทำร่วมกัน ส่งข้อความมาได้เลย ผมยังเรียนรู้อยู่ แต่จะช่วยให้ดีที่สุด',
       nameLabel: 'ชื่อ',
       namePlaceholder: 'ชื่อของคุณ',
       emailLabel: 'อีเมล',
@@ -69,7 +68,14 @@ const translations = {
       { name: 'Node.js', level: 70, color: '#68a063', icon: 'N' },
       { name: 'TypeScript', level: 70, color: '#3178c6', icon: 'TS' },
       { name: 'Python', level: 70, color: '#3776ab', icon: 'Py' },
-      { name: 'Figma / UI Design', level: 70, color: '#f24e1e', icon: 'F' }
+      { name: 'Figma / UI Design', level: 70, color: '#f24e1e', icon: 'F' },
+      { name: 'VS Code', level: 70, color: '#007acc', icon: 'VS' },
+      { name: 'Oracle', level: 70, color: '#f80000', icon: 'O' },
+      { name: 'Git', level: 70, color: '#f05032', icon: 'G' },
+      { name: 'MySQL Workbench', level: 70, color: '#4479a1', icon: 'DB' },
+      { name: 'Postman', level: 70, color: '#ff6c37', icon: 'P' },
+      { name: 'PostgreSQL', level: 70, color: '#336791', icon: 'PG' },
+      { name: 'MySQL', level: 70, color: '#00758f', icon: 'MY' }
     ],
     softSkillsTitle: 'Soft Skills',
     softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
@@ -108,6 +114,16 @@ const translations = {
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
         demo: 'https://project-66-edit-1-3cpm.onrender.com',
         github: 'https://github.com/poteagamer-source/Project-66-edit'
+      },
+      {
+        id: 4,
+        title: 'ออกแบบการพัฒนาระบบสั่งซื้อและจัดการร้านบัวลอยแป๊ะอ้วน',
+        description: 'ออกแบบการพัฒนาระบบสั่งซื้อและจัดการร้านบัวลอยแป๊ะอ้วนด้วย Figma',
+       tags: ['Figma'],
+        category: 'Design',
+        emoji: '📱',
+        gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
+        demo: 'https://www.figma.com/design/hRoKob24TYpo1xt8ddDDdw/Untitled?node-id=0-1&t=Gic7pV7ISWX758JH-1 '
       }
     ],
     socials: [
@@ -141,7 +157,6 @@ const translations = {
     contact: {
       tag: 'Contact',
       title: 'Get In Touch',
-      intro: 'If you have an idea or a project you want to build together, feel free to send me a message. I am still learning, but I will do my best.',
       nameLabel: 'Name',
       namePlaceholder: 'Your name',
       emailLabel: 'Email',
@@ -167,7 +182,6 @@ const translations = {
     },
     stats: [
       { value: '3+', label: 'Projects' },
-      { value: '1+', label: 'Year of coding' },
       { value: '5+', label: 'Technologies' }
     ],
     highlights: [
@@ -185,7 +199,14 @@ const translations = {
       { name: 'Node.js', level: 70, color: '#68a063', icon: 'N' },
       { name: 'TypeScript', level: 82, color: '#3178c6', icon: 'TS' },
       { name: 'Python', level: 70, color: '#3776ab', icon: 'Py' },
-      { name: 'Figma / UI Design', level: 85, color: '#f24e1e', icon: 'F' }
+      { name: 'Figma / UI Design', level: 85, color: '#f24e1e', icon: 'F' },
+      { name: 'VS Code', level: 70, color: '#007acc', icon: 'VS' },
+      { name: 'Oracle', level: 70, color: '#f80000', icon: 'O' },
+      { name: 'Git', level: 70, color: '#f05032', icon: 'G' },
+      { name: 'MySQL Workbench', level: 70, color: '#4479a1', icon: 'DB' },
+      { name: 'Postman', level: 70, color: '#ff6c37', icon: 'P' },
+      { name: 'PostgreSQL', level: 70, color: '#336791', icon: 'PG' },
+      { name: 'MySQL', level: 70, color: '#00758f', icon: 'MY' }
     ],
     softSkillsTitle: 'Soft Skills',
     softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
@@ -223,6 +244,16 @@ const translations = {
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
         demo: 'https://project-66-edit-1-3cpm.onrender.com',
         github: 'https://github.com/poteagamer-source/Project-66-edit'
+      },
+      {
+        id: 4,
+        title: 'Design Pae Ouan Bualoi Shop',
+        description: 'Design Pae Ouan Bualoi Shop',
+        tags: ['Figma'],
+        category: 'Design',
+        emoji: '📱',
+        gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
+        demo: 'https://www.figma.com/design/hRoKob24TYpo1xt8ddDDdw/Untitled?node-id=0-1&t=Gic7pV7ISWX758JH-1 '
       }
     ],
     socials: [
@@ -272,7 +303,7 @@ createApp({
       email: 'thanaphatmtae@gmail.com',
       location: t.value.profile.location,
       githubUrl: 'https://github.com/poteagamer-source',
-      resumeUrl: '#',
+      resumeUrl: './assets/resume/resume.pdf',
       about: t.value.profile.about
     }));
 
@@ -280,6 +311,7 @@ createApp({
     const highlights = computed(() => t.value.highlights);
     const roles = computed(() => t.value.roles);
     const skills = computed(() => t.value.skillsList.map(skill => ({ ...skill })));
+    const softSkills = computed(() => t.value.softSkills);
     const categories = computed(() => t.value.projectCategories);
     const projects = computed(() => t.value.projects.map(project => ({ ...project })));
     const socials = computed(() => t.value.socials.map(social => ({ ...social })));
@@ -445,6 +477,7 @@ createApp({
       stats,
       highlights,
       skills,
+      softSkills,
       categories,
       filteredProjects,
       socials,
