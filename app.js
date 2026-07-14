@@ -78,7 +78,7 @@ const translations = {
       { name: 'MySQL', level: 70, color: '#00758f', icon: 'MY' }
     ],
     softSkillsTitle: 'Soft Skills',
-    softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
+    softSkills: ['สื่อสารเข้าสังคมได้ดี', 'ทำงานเป็นทีมได้ดี', 'สามารถแก้ไขปัญหาเฉพาะหน้าได้ดี', 'ปรับตัวกับการทำงานได้ดี'],
     projectCategories: ['ทั้งหมด', 'Web App', 'Design'],
     projects: [
       {
