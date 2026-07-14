@@ -405,11 +405,19 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-title {
+  display:flex;
+  flex-direction:column;
+  gap:6px;
   font-size: clamp(2.5rem, 7vw, 4.5rem);
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -0.03em;
   margin-bottom: 16px;
+  min-height: 2.3em;
+}
+
+.hero-name{
+  display:block;
 }
 
 .hero-subtitle {
