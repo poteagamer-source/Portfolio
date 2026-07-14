@@ -103,8 +103,8 @@ const translations = {
         title: 'ระบบลงทะเบียนเรียนเทคนิคหาดใหญ่',
         description: 'เว็ประบบลงทะเบียนเรียนเทคนิคหาดใหญ่',
         tags: ['HTML','PHP', 'JavaScript', 'CSS'],
-        category: 'Web App',
-        emoji: '📱',
+        category: 'Web',
+        emoji: '🖥️',
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
         demo: 'https://project-66-edit-1-3cpm.onrender.com',
         github: 'https://github.com/poteagamer-source/Project-66-edit'
@@ -218,8 +218,8 @@ const translations = {
         title: 'Registration System for Hat Yai Technical College',
         description: 'A registration system website for Hat Yai Technical College.',
         tags: ['HTML', 'PHP', 'JavaScript', 'CSS'],
-        category: 'Web App',
-        emoji: '📱',
+        category: 'Web',
+        emoji: '🖥️',
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
         demo: 'https://project-66-edit-1-3cpm.onrender.com',
         github: 'https://github.com/poteagamer-source/Project-66-edit'
