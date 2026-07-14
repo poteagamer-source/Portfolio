@@ -19,7 +19,10 @@ const translations = {
       downloadResume: 'ดาวน์โหลด Resume'
     },
     skills: { tag: 'ทักษะ', title: 'Tech Stack' },
-    projects: { tag: 'ผลงาน', title: 'ผลงานเด่น' },
+    // FIX: renamed from `projects` to `projectsSection` to avoid clashing with the
+    // `projects` array key further below (duplicate keys in the same object cause
+    // the later one to silently overwrite the earlier one).
+    projectsSection: { tag: 'ผลงาน', title: 'ผลงานเด่น' },
     contact: {
       tag: 'ติดต่อ',
       title: 'ติดต่อฉัน',
@@ -131,7 +134,8 @@ const translations = {
       downloadResume: 'Download Resume'
     },
     skills: { tag: 'Skills', title: 'Tech Stack' },
-    projects: { tag: 'Projects', title: 'Featured Projects' },
+    // FIX: renamed from `projects` to `projectsSection` (see note above).
+    projectsSection: { tag: 'Projects', title: 'Featured Projects' },
     contact: {
       tag: 'Contact',
       title: 'Get In Touch',
@@ -414,14 +418,6 @@ createApp({
       const style = document.createElement('style');
       style.textContent = '.visible { opacity: 1 !important; transform: translateY(0) !important; }';
       document.head.appendChild(style);
-
-      // Debug: log projects and filtered projects counts to help diagnose rendering issues
-      try {
-        console.log('projects (all):', projects.value.length, projects.value.map(p => p.id));
-        console.log('filteredProjects (activeFilter):', activeFilter.value, filteredProjects.value.length, filteredProjects.value.map(p => p.id));
-      } catch (e) {
-        console.warn('Debug log failed', e);
-      }
     });
 
     onUnmounted(() => {
