@@ -69,7 +69,12 @@ const translations = {
       { name: 'Node.js', level: 70, color: '#68a063', icon: 'N' },
       { name: 'TypeScript', level: 70, color: '#3178c6', icon: 'TS' },
       { name: 'Python', level: 70, color: '#3776ab', icon: 'Py' },
-      { name: 'Figma / UI Design', level: 70, color: '#f24e1e', icon: 'F' }
+      { name: 'Figma / UI Design', level: 70, color: '#f24e1e', icon: 'F' },
+      { name: 'VS Code', level: 70, color: '#007acc', icon: 'VS' },
+      { name: 'Oracle', level: 70, color: '#f80000', icon: 'O' },
+      { name: 'Git', level: 70, color: '#f05032', icon: 'G' },
+      { name: 'MySQL Workbench', level: 70, color: '#4479a1', icon: 'DB' },
+      { name: 'Postman', level: 70, color: '#ff6c37', icon: 'P' }
     ],
     softSkillsTitle: 'Soft Skills',
     softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
@@ -195,7 +200,12 @@ const translations = {
       { name: 'Node.js', level: 70, color: '#68a063', icon: 'N' },
       { name: 'TypeScript', level: 82, color: '#3178c6', icon: 'TS' },
       { name: 'Python', level: 70, color: '#3776ab', icon: 'Py' },
-      { name: 'Figma / UI Design', level: 85, color: '#f24e1e', icon: 'F' }
+      { name: 'Figma / UI Design', level: 85, color: '#f24e1e', icon: 'F' },
+      { name: 'VS Code', level: 70, color: '#007acc', icon: 'VS' },
+      { name: 'Oracle', level: 70, color: '#f80000', icon: 'O' },
+      { name: 'Git', level: 70, color: '#f05032', icon: 'G' },
+      { name: 'MySQL Workbench', level: 70, color: '#4479a1', icon: 'DB' },
+      { name: 'Postman', level: 70, color: '#ff6c37', icon: 'P' }
     ],
     softSkillsTitle: 'Soft Skills',
     softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
