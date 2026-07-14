@@ -300,6 +300,7 @@ createApp({
     const highlights = computed(() => t.value.highlights);
     const roles = computed(() => t.value.roles);
     const skills = computed(() => t.value.skillsList.map(skill => ({ ...skill })));
+    const softSkills = computed(() => t.value.softSkills);
     const categories = computed(() => t.value.projectCategories);
     const projects = computed(() => t.value.projects.map(project => ({ ...project })));
     const socials = computed(() => t.value.socials.map(social => ({ ...social })));
@@ -465,6 +466,7 @@ createApp({
       stats,
       highlights,
       skills,
+      softSkills,
       categories,
       filteredProjects,
       socials,
