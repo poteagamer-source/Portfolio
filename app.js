@@ -157,7 +157,6 @@ const translations = {
     contact: {
       tag: 'Contact',
       title: 'Get In Touch',
-      intro: 'If you have an idea or a project you want to build together, feel free to send me a message. I am still learning, but I will do my best.',
       nameLabel: 'Name',
       namePlaceholder: 'Your name',
       emailLabel: 'Email',
@@ -183,7 +182,6 @@ const translations = {
     },
     stats: [
       { value: '3+', label: 'Projects' },
-      { value: '1+', label: 'Year of coding' },
       { value: '5+', label: 'Technologies' }
     ],
     highlights: [
