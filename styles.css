@@ -657,8 +657,14 @@ img { max-width: 100%; display: block; }
 
 .skill-percent {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: var(--text);
   font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.06em;
 }
 
 .skill-bar {
