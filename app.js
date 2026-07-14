@@ -223,6 +223,16 @@ const translations = {
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
         demo: 'https://project-66-edit-1-3cpm.onrender.com',
         github: 'https://github.com/poteagamer-source/Project-66-edit'
+      },
+      {
+        id: 4,
+        title: 'Registration System for Hat Yai Technical College',
+        description: 'A registration system website for Hat Yai Technical College.',
+        tags: ['HTML', 'PHP', 'JavaScript', 'CSS'],
+        category: 'Web App',
+        emoji: '📱',
+        gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
+        demo: 'https://www.figma.com/design/hRoKob24TYpo1xt8ddDDdw/Untitled?node-id=0-1&t=Gic7pV7ISWX758JH-1 '
       }
     ],
     socials: [
