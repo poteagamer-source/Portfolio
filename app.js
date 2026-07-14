@@ -111,10 +111,10 @@ const translations = {
       },
       {
         id: 4,
-        title: 'Registration System for Hat Yai Technical College',
-        description: 'A registration system website for Hat Yai Technical College.',
-        tags: ['HTML', 'PHP', 'JavaScript', 'CSS'],
-        category: 'Web App',
+        title: 'ออกแบบการพัฒนาระบบสั่งซื้อและจัดการร้านบัวลอยแป๊ะอ้วน',
+        description: 'ออกแบบการพัฒนาระบบสั่งซื้อและจัดการร้านบัวลอยแป๊ะอ้วนด้วย Figma',
+       tags: ['Figma'],
+        category: 'Design',
         emoji: '📱',
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
         demo: 'https://www.figma.com/design/hRoKob24TYpo1xt8ddDDdw/Untitled?node-id=0-1&t=Gic7pV7ISWX758JH-1 '
@@ -236,10 +236,10 @@ const translations = {
       },
       {
         id: 4,
-        title: 'Registration System for Hat Yai Technical College',
-        description: 'A registration system website for Hat Yai Technical College.',
-        tags: ['HTML', 'PHP', 'JavaScript', 'CSS'],
-        category: 'Web App',
+        title: 'Design Pae Ouan Bualoi Shop',
+        description: 'Design Pae Ouan Bualoi Shop',
+        tags: ['Figma'],
+        category: 'Design',
         emoji: '📱',
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
         demo: 'https://www.figma.com/design/hRoKob24TYpo1xt8ddDDdw/Untitled?node-id=0-1&t=Gic7pV7ISWX758JH-1 '
