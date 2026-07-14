@@ -272,7 +272,7 @@ createApp({
       email: 'thanaphatmtae@gmail.com',
       location: t.value.profile.location,
       githubUrl: 'https://github.com/poteagamer-source',
-      resumeUrl: '#',
+      resumeUrl: './assets/resume/resume.pdf',
       about: t.value.profile.about
     }));
 
