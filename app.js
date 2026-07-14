@@ -104,8 +104,8 @@ const translations = {
         category: 'Web App',
         emoji: '📱',
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
-        demo: 'https://portfolio-1-qf9p.onrender.com/',
-        github: 'https://github.com/poteagamer-source/Portfolio'
+        demo: 'https://project-66-edit-1-3cpm.onrender.com',
+        github: 'https://github.com/poteagamer-source/Project-66-edit'
       }
     ],
     socials: [
@@ -217,8 +217,8 @@ const translations = {
         category: 'Web App',
         emoji: '📱',
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
-        demo: 'https://portfolio-1-qf9p.onrender.com/',
-        github: 'https://github.com/poteagamer-source/Portfolio'
+        demo: 'https://project-66-edit-1-3cpm.onrender.com',
+        github: 'https://github.com/poteagamer-source/Project-66-edit'
       }
     ],
     socials: [
