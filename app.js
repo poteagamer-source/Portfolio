@@ -194,18 +194,18 @@ const translations = {
         tags: ['React.js', 'Node.js', 'TypeScript'],
         category: 'Web App',
         image: 'assets/logo.png',
-        gradient: 'linear-gradient(135deg, #6c5ce7, #a29bfe)',
+        gradient: 'linear-gradient(135deg, #e6e6e6, #f3ffaf)',
         demo: 'https://pa-ouan-shop.onrender.com',
         github: 'https://github.com/poteagamer-source/pa-ouan-shop'
       },
       {
         id: 2,
-        title: 'Simple Stock and Order Tracking Web App',
-        description: 'A practice project that shows how to manage data and build a clean, easy-to-use interface.',
+        title: 'Portfolio Web app',
+        description: 'Its a portfolio practice project.',
         tags: ['Vue.js', 'JavaScript', 'CSS'],
         category: 'Web App',
         emoji: '📱',
-        gradient: 'linear-gradient(135deg, #00b894, #55efc4)',
+        gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
         demo: '#',
         github: '#'
       },
