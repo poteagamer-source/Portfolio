@@ -1151,3 +1151,30 @@ a.contact-method:hover {
     padding: 24px 20px;
   }
 }
+
+
+.soft-skills{
+ text-align:center;
+ margin-top:48px;
+}
+.soft-skills-list{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+ gap:16px;
+ margin-top:24px;
+}
+.soft-skill{
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ gap:10px;
+ padding:18px;
+ border-radius:16px;
+ background:var(--bg-card);
+ border:1px solid var(--border);
+ font-weight:600;
+}
+.soft-skill-icon{
+ color:#8b5cf6;
+ font-size:1.1rem;
+}

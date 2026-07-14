@@ -71,7 +71,7 @@ const translations = {
       { name: 'Python', level: 70, color: '#3776ab', icon: 'Py' },
       { name: 'Figma / UI Design', level: 70, color: '#f24e1e', icon: 'F' }
     ],
-    softSkillsTitle: 'Soft Skills',
+    softSkillsTitle: 'SoftSkills',
     softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
     projectCategories: ['ทั้งหมด', 'Web App', 'Mobile', 'Design'],
     projects: [
@@ -187,7 +187,7 @@ const translations = {
       { name: 'Python', level: 70, color: '#3776ab', icon: 'Py' },
       { name: 'Figma / UI Design', level: 85, color: '#f24e1e', icon: 'F' }
     ],
-    softSkillsTitle: 'Soft Skills',
+    softSkillsTitle: 'SoftSkills',
     softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
     projectCategories: ['All', 'Web App', 'Mobile', 'Design'],
     projects: [
