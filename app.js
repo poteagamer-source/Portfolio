@@ -90,8 +90,19 @@ const translations = {
         category: 'Web App',
         emoji: '📱',
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
-        demo: '#',
-        github: '#'
+        demo: 'https://portfolio-1-qf9p.onrender.com/',
+        github: 'https://github.com/poteagamer-source/Portfolio'
+      },
+      {
+        id: 3,
+        title: 'ระบบลงทะเบียนเรียนเทคนิคหาดใหญ่',
+        description: 'เว็ประบบลงทะเบียนเรียนเทคนิคหาดใหญ่',
+        tags: ['HTML','PHP', 'JavaScript', 'CSS'],
+        category: 'Web App',
+        emoji: '📱',
+        gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
+        demo: 'https://portfolio-1-qf9p.onrender.com/',
+        github: 'https://github.com/poteagamer-source/Portfolio'
       }
     ],
     socials: [
@@ -193,6 +204,17 @@ const translations = {
         gradient: 'linear-gradient(135deg, #00b894, #55efc4)',
         demo: '#',
         github: '#'
+      },
+      {
+        id: 3,
+        title: 'Registration System for Hat Yai Technical College',
+        description: 'A registration system website for Hat Yai Technical College.',
+        tags: ['HTML', 'PHP', 'JavaScript', 'CSS'],
+        category: 'Web App',
+        emoji: '📱',
+        gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
+        demo: 'https://portfolio-1-qf9p.onrender.com/',
+        github: 'https://github.com/poteagamer-source/Portfolio'
       }
     ],
     socials: [
@@ -392,6 +414,14 @@ createApp({
       const style = document.createElement('style');
       style.textContent = '.visible { opacity: 1 !important; transform: translateY(0) !important; }';
       document.head.appendChild(style);
+
+      // Debug: log projects and filtered projects counts to help diagnose rendering issues
+      try {
+        console.log('projects (all):', projects.value.length, projects.value.map(p => p.id));
+        console.log('filteredProjects (activeFilter):', activeFilter.value, filteredProjects.value.length, filteredProjects.value.map(p => p.id));
+      } catch (e) {
+        console.warn('Debug log failed', e);
+      }
     });
 
     onUnmounted(() => {
