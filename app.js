@@ -22,7 +22,7 @@ const translations = {
     // FIX: renamed from `projects` to `projectsSection` to avoid clashing with the
     // `projects` array key further below (duplicate keys in the same object cause
     // the later one to silently overwrite the earlier one).
-    projectsSection: { tag: 'ผลงาน', title: 'ผลงานเด่น' },
+    projectsSection: { tag: 'ผลงาน', title: 'ผลงาน' },
     contact: {
       tag: 'ติดต่อ',
       title: 'ติดต่อฉัน',
@@ -135,7 +135,7 @@ const translations = {
     },
     skills: { tag: 'Skills', title: 'Tech Stack' },
     // FIX: renamed from `projects` to `projectsSection` (see note above).
-    projectsSection: { tag: 'Projects', title: 'Featured Projects' },
+    projectsSection: { tag: 'Projects', title: 'Projects' },
     contact: {
       tag: 'Contact',
       title: 'Get In Touch',
