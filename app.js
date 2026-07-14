@@ -79,7 +79,7 @@ const translations = {
     ],
     softSkillsTitle: 'Soft Skills',
     softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
-    projectCategories: ['ทั้งหมด', 'Web App', 'Mobile', 'Design'],
+    projectCategories: ['ทั้งหมด', 'Web App', 'Design'],
     projects: [
       {
         id: 1,
@@ -210,7 +210,7 @@ const translations = {
     ],
     softSkillsTitle: 'Soft Skills',
     softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
-    projectCategories: ['All', 'Web App', 'Mobile', 'Design'],
+    projectCategories: ['All', 'Web App', 'Design'],
     projects: [
       {
         id: 1,
