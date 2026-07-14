@@ -74,7 +74,9 @@ const translations = {
       { name: 'Oracle', level: 70, color: '#f80000', icon: 'O' },
       { name: 'Git', level: 70, color: '#f05032', icon: 'G' },
       { name: 'MySQL Workbench', level: 70, color: '#4479a1', icon: 'DB' },
-      { name: 'Postman', level: 70, color: '#ff6c37', icon: 'P' }
+      { name: 'Postman', level: 70, color: '#ff6c37', icon: 'P' },
+      { name: 'PostgreSQL', level: 70, color: '#336791', icon: 'PG' },
+      { name: 'MySQL', level: 70, color: '#00758f', icon: 'MY' }
     ],
     softSkillsTitle: 'Soft Skills',
     softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
@@ -205,7 +207,9 @@ const translations = {
       { name: 'Oracle', level: 70, color: '#f80000', icon: 'O' },
       { name: 'Git', level: 70, color: '#f05032', icon: 'G' },
       { name: 'MySQL Workbench', level: 70, color: '#4479a1', icon: 'DB' },
-      { name: 'Postman', level: 70, color: '#ff6c37', icon: 'P' }
+      { name: 'Postman', level: 70, color: '#ff6c37', icon: 'P' },
+      { name: 'PostgreSQL', level: 70, color: '#336791', icon: 'PG' },
+      { name: 'MySQL', level: 70, color: '#00758f', icon: 'MY' }
     ],
     softSkillsTitle: 'Soft Skills',
     softSkills: ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability'],
