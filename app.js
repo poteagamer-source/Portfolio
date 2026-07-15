@@ -171,7 +171,7 @@ const translations = {
     },
     footer: { builtWith: 'Built with HTML, CSS, JS & Vue' },
     profile: {
-      name: 'Thanaphat Maneenuan',
+      name: 'Thanaphat Maneenual',
       title: 'Learning Web Development',
       bio: 'I am a student who is still learning how to build websites and I enjoy making simple things that are easy to use.',
       location: 'Thailand',
@@ -342,7 +342,7 @@ createApp({
       activeFilter.value = translations[lang].projectCategories[0];
       document.title = lang === 'th'
         ? 'Portfolio | ธนภัทร มณีนวล'
-        : 'Portfolio | Thanaphat Maneenuan';
+        : 'Portfolio | Thanaphat Maneenual';
     }
 
     function handleScroll() {
