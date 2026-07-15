@@ -19,6 +19,7 @@ const translations = {
       downloadResume: 'ดาวน์โหลด Resume'
     },
     skills: { tag: 'ทักษะ', title: 'Tech Stack' },
+    certificatesSection: { tag: 'ประกาศนียบัตร', title: 'ประกาศนียบัตร & การฝึกอบรม' },
     // FIX: renamed from `projects` to `projectsSection` to avoid clashing with the
     // `projects` array key further below (duplicate keys in the same object cause
     // the later one to silently overwrite the earlier one).
