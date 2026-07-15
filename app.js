@@ -153,6 +153,7 @@ const translations = {
       downloadResume: 'Download Resume'
     },
     skills: { tag: 'Skills', title: 'Tech Stack' },
+    certificatesSection: { tag: 'Certificates', title: 'Certificates & Training' },
     // FIX: renamed from `projects` to `projectsSection` (see note above).
     projectsSection: { tag: 'Projects', title: 'Projects' },
     contact: {
