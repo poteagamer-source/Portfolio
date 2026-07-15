@@ -1185,3 +1185,9 @@ a.contact-method:hover {
  color:#8b5cf6;
  font-size:1.1rem;
 }
+
+.certificates-section{margin-top:70px}
+.certificate-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:30px}
+.certificate-card{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);transition:.3s}
+.certificate-card:hover{transform:translateY(-6px)}
+.certificate-card img{width:100%;display:block}
