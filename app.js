@@ -192,7 +192,7 @@ const translations = {
       'Work well with teams and collaborators',
       'Keep learning new tools and technologies'
     ],
-    roles: ['Full-Stack Developer', 'UI/UX Designer', 'Vue.js Specialist', 'Problem Solver'],
+    roles: ['Full-Stack Developer', 'UI/UX Designer', 'Problem Solver'],
     skillsList: [
       { name: 'HTML / CSS', level: 80, color: '#e34c26', icon: 'H' },
       { name: 'JavaScript', level: 80, color: '#f7df1e', icon: 'JS' },
