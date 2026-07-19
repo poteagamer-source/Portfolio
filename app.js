@@ -51,7 +51,7 @@ const translations = {
       ]
     },
     stats: [
-      { value: '3+', label: 'โปรเจกต์' },
+      { value: '4+', label: 'โปรเจกต์' },
       { value: '5+', label: 'เทคโนโลยีที่ใช้ได้' }
     ],
     highlights: [
@@ -125,6 +125,17 @@ const translations = {
         emoji: '📱',
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
         demo: 'https://www.figma.com/design/hRoKob24TYpo1xt8ddDDdw/Untitled?node-id=0-1&t=Gic7pV7ISWX758JH-1 '
+      },
+      {
+        id: 5,
+        title: 'Greenlife',
+        description: 'เว็บไซต์ส่งเสริมการใช้ชีวิตที่เป็นมิตรต่อสิ่งแวดล้อมและสร้างความตระหนักด้านความยั่งยืน',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        category: 'Web App',
+        emoji: '🌿',
+        gradient: 'linear-gradient(135deg, #d9f99d, #16a34a)',
+        demo: 'https://greenweb-oe6w.onrender.com/',
+        github: 'https://github.com/poteagamer-source/Greenweb'
       }
     ],
     socials: [
@@ -183,7 +194,7 @@ const translations = {
       ]
     },
     stats: [
-      { value: '3+', label: 'Projects' },
+      { value: '4+', label: 'Projects' },
       { value: '5+', label: 'Technologies' }
     ],
     highlights: [
@@ -256,6 +267,17 @@ const translations = {
         emoji: '📱',
         gradient: 'linear-gradient(135deg, #a6afff, #6b36fc)',
         demo: 'https://www.figma.com/design/hRoKob24TYpo1xt8ddDDdw/Untitled?node-id=0-1&t=Gic7pV7ISWX758JH-1 '
+      },
+      {
+        id: 5,
+        title: 'Greenlife',
+        description: 'A website that promotes eco-friendly living and raises awareness of environmental sustainability.',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        category: 'Web App',
+        emoji: '🌿',
+        gradient: 'linear-gradient(135deg, #d9f99d, #16a34a)',
+        demo: 'https://greenweb-oe6w.onrender.com/',
+        github: 'https://github.com/poteagamer-source/Greenweb'
       }
     ],
     socials: [
